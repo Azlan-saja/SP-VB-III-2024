@@ -48,7 +48,7 @@ Partial Class f_data_mahasiswa
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(163, 23)
+        Me.Label1.Location = New System.Drawing.Point(172, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(89, 32)
         Me.Label1.TabIndex = 0
@@ -56,6 +56,7 @@ Partial Class f_data_mahasiswa
         '
         'tb_nirm
         '
+        Me.tb_nirm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tb_nirm.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_nirm.Location = New System.Drawing.Point(267, 20)
         Me.tb_nirm.Name = "tb_nirm"
@@ -66,7 +67,7 @@ Partial Class f_data_mahasiswa
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(158, 86)
+        Me.Label2.Location = New System.Drawing.Point(167, 85)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(94, 32)
         Me.Label2.TabIndex = 0
@@ -74,6 +75,7 @@ Partial Class f_data_mahasiswa
         '
         'tb_nama
         '
+        Me.tb_nama.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tb_nama.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_nama.Location = New System.Drawing.Point(267, 83)
         Me.tb_nama.Name = "tb_nama"
@@ -84,7 +86,7 @@ Partial Class f_data_mahasiswa
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(46, 145)
+        Me.Label3.Location = New System.Drawing.Point(55, 144)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(206, 32)
         Me.Label3.TabIndex = 0
@@ -104,7 +106,7 @@ Partial Class f_data_mahasiswa
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(4, 204)
+        Me.Label4.Location = New System.Drawing.Point(13, 203)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(248, 32)
         Me.Label4.TabIndex = 0
@@ -112,6 +114,7 @@ Partial Class f_data_mahasiswa
         '
         'tb_nomor_whatsapp
         '
+        Me.tb_nomor_whatsapp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tb_nomor_whatsapp.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_nomor_whatsapp.Location = New System.Drawing.Point(267, 204)
         Me.tb_nomor_whatsapp.Name = "tb_nomor_whatsapp"
@@ -122,7 +125,7 @@ Partial Class f_data_mahasiswa
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(142, 262)
+        Me.Label5.Location = New System.Drawing.Point(151, 261)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(110, 32)
         Me.Label5.TabIndex = 0
@@ -130,6 +133,7 @@ Partial Class f_data_mahasiswa
         '
         'tb_alamat
         '
+        Me.tb_alamat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tb_alamat.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_alamat.Location = New System.Drawing.Point(268, 259)
         Me.tb_alamat.Multiline = True
@@ -208,7 +212,7 @@ Partial Class f_data_mahasiswa
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(262, 493)
+        Me.Label6.Location = New System.Drawing.Point(282, 495)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(297, 32)
         Me.Label6.TabIndex = 0
@@ -216,6 +220,7 @@ Partial Class f_data_mahasiswa
         '
         'tb_cari
         '
+        Me.tb_cari.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tb_cari.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tb_cari.Location = New System.Drawing.Point(577, 493)
         Me.tb_cari.Name = "tb_cari"

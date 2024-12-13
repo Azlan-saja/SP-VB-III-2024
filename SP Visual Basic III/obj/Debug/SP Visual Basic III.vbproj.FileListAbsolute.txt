@@ -15,6 +15,6 @@ C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP V
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP Visual Basic III\bin\Debug\SP Visual Basic III.exe
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP Visual Basic III\bin\Debug\SP Visual Basic III.pdb
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP Visual Basic III\bin\Debug\SP Visual Basic III.xml
-C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP Visual Basic III\obj\Debug\SP_Visual_Basic_III.Form1.resources
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP Visual Basic III\obj\Debug\SP_Visual_Basic_III.Resources.resources
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP Visual Basic III\obj\Debug\SP Visual Basic III.vbproj.GenerateResource.Cache
+C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\SP Visual Basic III\SP Visual Basic III\obj\Debug\SP_Visual_Basic_III.f_data_mahasiswa.resources
