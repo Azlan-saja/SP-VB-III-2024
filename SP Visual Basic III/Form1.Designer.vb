@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class f_data_mahasiswa
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,25 +23,25 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.tb_nirm = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.tb_nama = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cb_jenis_kelamin = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.tb_nomor_whatsapp = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.tb_alamat = New System.Windows.Forms.TextBox()
+        Me.b_create = New System.Windows.Forms.Button()
+        Me.b_update = New System.Windows.Forms.Button()
+        Me.b_delete = New System.Windows.Forms.Button()
+        Me.b_cancel = New System.Windows.Forms.Button()
+        Me.lv_mahasiswa = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.tb_cari = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -54,13 +54,13 @@ Partial Class Form1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "NIRM"
         '
-        'TextBox1
+        'tb_nirm
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(267, 20)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(387, 38)
-        Me.TextBox1.TabIndex = 0
+        Me.tb_nirm.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_nirm.Location = New System.Drawing.Point(267, 20)
+        Me.tb_nirm.Name = "tb_nirm"
+        Me.tb_nirm.Size = New System.Drawing.Size(387, 38)
+        Me.tb_nirm.TabIndex = 0
         '
         'Label2
         '
@@ -72,13 +72,13 @@ Partial Class Form1
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Nama"
         '
-        'TextBox2
+        'tb_nama
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(267, 83)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(768, 38)
-        Me.TextBox2.TabIndex = 1
+        Me.tb_nama.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_nama.Location = New System.Drawing.Point(267, 83)
+        Me.tb_nama.Name = "tb_nama"
+        Me.tb_nama.Size = New System.Drawing.Size(768, 38)
+        Me.tb_nama.TabIndex = 1
         '
         'Label3
         '
@@ -90,15 +90,15 @@ Partial Class Form1
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Jenis Kelamin"
         '
-        'ComboBox1
+        'cb_jenis_kelamin
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Laki-laki", "Perempuan"})
-        Me.ComboBox1.Location = New System.Drawing.Point(268, 145)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(231, 39)
-        Me.ComboBox1.TabIndex = 2
+        Me.cb_jenis_kelamin.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cb_jenis_kelamin.FormattingEnabled = True
+        Me.cb_jenis_kelamin.Items.AddRange(New Object() {"Laki-laki", "Perempuan"})
+        Me.cb_jenis_kelamin.Location = New System.Drawing.Point(268, 145)
+        Me.cb_jenis_kelamin.Name = "cb_jenis_kelamin"
+        Me.cb_jenis_kelamin.Size = New System.Drawing.Size(231, 39)
+        Me.cb_jenis_kelamin.TabIndex = 2
         '
         'Label4
         '
@@ -110,13 +110,13 @@ Partial Class Form1
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Nomor Whatsapp"
         '
-        'TextBox3
+        'tb_nomor_whatsapp
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(267, 204)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(312, 38)
-        Me.TextBox3.TabIndex = 1
+        Me.tb_nomor_whatsapp.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_nomor_whatsapp.Location = New System.Drawing.Point(267, 204)
+        Me.tb_nomor_whatsapp.Name = "tb_nomor_whatsapp"
+        Me.tb_nomor_whatsapp.Size = New System.Drawing.Size(312, 38)
+        Me.tb_nomor_whatsapp.TabIndex = 1
         '
         'Label5
         '
@@ -128,67 +128,67 @@ Partial Class Form1
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Alamat"
         '
-        'TextBox4
+        'tb_alamat
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(268, 259)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(588, 144)
-        Me.TextBox4.TabIndex = 1
+        Me.tb_alamat.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_alamat.Location = New System.Drawing.Point(268, 259)
+        Me.tb_alamat.Multiline = True
+        Me.tb_alamat.Name = "tb_alamat"
+        Me.tb_alamat.Size = New System.Drawing.Size(588, 144)
+        Me.tb_alamat.TabIndex = 1
         '
-        'Button1
+        'b_create
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(267, 433)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(132, 44)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Create"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.b_create.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b_create.Location = New System.Drawing.Point(267, 433)
+        Me.b_create.Name = "b_create"
+        Me.b_create.Size = New System.Drawing.Size(132, 44)
+        Me.b_create.TabIndex = 3
+        Me.b_create.Text = "Create"
+        Me.b_create.UseVisualStyleBackColor = True
         '
-        'Button2
+        'b_update
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(405, 433)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(132, 44)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Update"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.b_update.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b_update.Location = New System.Drawing.Point(405, 433)
+        Me.b_update.Name = "b_update"
+        Me.b_update.Size = New System.Drawing.Size(132, 44)
+        Me.b_update.TabIndex = 3
+        Me.b_update.Text = "Update"
+        Me.b_update.UseVisualStyleBackColor = True
         '
-        'Button3
+        'b_delete
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(703, 433)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(132, 44)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Delete"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.b_delete.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b_delete.Location = New System.Drawing.Point(703, 433)
+        Me.b_delete.Name = "b_delete"
+        Me.b_delete.Size = New System.Drawing.Size(132, 44)
+        Me.b_delete.TabIndex = 3
+        Me.b_delete.Text = "Delete"
+        Me.b_delete.UseVisualStyleBackColor = True
         '
-        'Button4
+        'b_cancel
         '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(903, 433)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(132, 44)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Cancel"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.b_cancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.b_cancel.Location = New System.Drawing.Point(903, 433)
+        Me.b_cancel.Name = "b_cancel"
+        Me.b_cancel.Size = New System.Drawing.Size(132, 44)
+        Me.b_cancel.TabIndex = 3
+        Me.b_cancel.Text = "Cancel"
+        Me.b_cancel.UseVisualStyleBackColor = True
         '
-        'ListView1
+        'lv_mahasiswa
         '
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3})
-        Me.ListView1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ListView1.FullRowSelect = True
-        Me.ListView1.GridLines = True
-        Me.ListView1.Location = New System.Drawing.Point(19, 546)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(1016, 176)
-        Me.ListView1.TabIndex = 4
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        Me.ListView1.View = System.Windows.Forms.View.Details
+        Me.lv_mahasiswa.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3})
+        Me.lv_mahasiswa.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lv_mahasiswa.FullRowSelect = True
+        Me.lv_mahasiswa.GridLines = True
+        Me.lv_mahasiswa.Location = New System.Drawing.Point(19, 546)
+        Me.lv_mahasiswa.Name = "lv_mahasiswa"
+        Me.lv_mahasiswa.Size = New System.Drawing.Size(1016, 176)
+        Me.lv_mahasiswa.TabIndex = 4
+        Me.lv_mahasiswa.UseCompatibleStateImageBehavior = False
+        Me.lv_mahasiswa.View = System.Windows.Forms.View.Details
         '
         'ColumnHeader1
         '
@@ -214,37 +214,37 @@ Partial Class Form1
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Cari Nirm atau Nama"
         '
-        'TextBox5
+        'tb_cari
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(577, 493)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(458, 38)
-        Me.TextBox5.TabIndex = 1
+        Me.tb_cari.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_cari.Location = New System.Drawing.Point(577, 493)
+        Me.tb_cari.Name = "tb_cari"
+        Me.tb_cari.Size = New System.Drawing.Size(458, 38)
+        Me.tb_cari.TabIndex = 1
         '
-        'Form1
+        'f_data_mahasiswa
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1055, 734)
-        Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.lv_mahasiswa)
+        Me.Controls.Add(Me.b_cancel)
+        Me.Controls.Add(Me.b_delete)
+        Me.Controls.Add(Me.b_update)
+        Me.Controls.Add(Me.b_create)
+        Me.Controls.Add(Me.cb_jenis_kelamin)
+        Me.Controls.Add(Me.tb_cari)
+        Me.Controls.Add(Me.tb_alamat)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.tb_nomor_whatsapp)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.tb_nama)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.tb_nirm)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "f_data_mahasiswa"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Data Mahasiswa"
         Me.ResumeLayout(False)
@@ -252,24 +252,24 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents tb_nirm As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents tb_nama As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cb_jenis_kelamin As System.Windows.Forms.ComboBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents tb_nomor_whatsapp As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Friend WithEvents tb_alamat As System.Windows.Forms.TextBox
+    Friend WithEvents b_create As System.Windows.Forms.Button
+    Friend WithEvents b_update As System.Windows.Forms.Button
+    Friend WithEvents b_delete As System.Windows.Forms.Button
+    Friend WithEvents b_cancel As System.Windows.Forms.Button
+    Friend WithEvents lv_mahasiswa As System.Windows.Forms.ListView
     Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents tb_cari As System.Windows.Forms.TextBox
 
 End Class
